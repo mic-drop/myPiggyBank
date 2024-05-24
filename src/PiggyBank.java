@@ -19,4 +19,8 @@ public class PiggyBank {
         }
     }
 
+    @Override
+    public String toString() {
+        return "PiggyBank has " + balance + "€";
+    }
 }
