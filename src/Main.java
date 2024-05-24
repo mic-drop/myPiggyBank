@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         PiggyBank piggyBank = new PiggyBank();
-        piggyBank.setBalance(50);
 
-        piggyBank.deposit(50);
-        System.out.println(piggyBank);
+        piggyBank.setBalance(100);
 
-        piggyBank.withdraw(200);
-        System.out.println(piggyBank);
+        Person person = new Person(piggyBank);
+
+        person.earnMoney(100);
+        System.out.println(person);
+
+        person.spendMoney(100);
+        System.out.println(person);
     }
 }
