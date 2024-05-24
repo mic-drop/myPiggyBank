@@ -4,9 +4,12 @@ public class Main {
         System.out.println("Hey, its PIGGY BANK!!!!");
         PiggyBank piggyBank = new PiggyBank();
 
+        // Sets initial balance
         piggyBank.setBalance(100);
 
+        //Instantiate the person
         Person person = new Person(piggyBank);
+
 
         person.earnMoney(100);
         System.out.println(person);
