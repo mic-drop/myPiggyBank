@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("Hey, its PIGGY BANK!!!!");
         PiggyBank piggyBank = new PiggyBank();
 
         piggyBank.setBalance(100);
